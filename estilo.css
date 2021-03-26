@@ -1,0 +1,62 @@
+body {
+  background: url(calaberafx.png);
+  background-repeat: no-repeat;
+  background-size: 121%;
+  background-position: -300px -48px;
+  background-attachment: fixed;
+  font-size: 1.7em;
+}
+
+.logotipo {
+  text-decoration: none;
+  color: #05fcfc;
+  text-shadow: rgb(84, 109, 117) -6px 2px;
+  margin: 1em;
+  font-family: Homer Simpson UI;
+  font-size: 5em;
+  word-spacing: 0, 5em;
+  position: relative;
+  top: 30px;
+}
+
+.menu {
+  padding: 10px;
+  background: #05fcfc59;
+  max-width: 100%;
+  margin: auto;
+  text-align: center;
+  font-size: 40px;
+  word-spacing: 1em;
+  position: relative;
+  top: 8.5em;
+}
+.menu li a {
+  font-size: 45px;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  display: block;
+}
+
+.menu li {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+}
+.menu li a:hover {
+  background: #dfebeb34;
+  /* transition: all 0.5s; */
+  /* border-radius: 10px; */
+}
+marquee {
+  color: #737377;
+  font-size: 2em;
+  width: 50%;
+  letter-spacing: 15px;
+  position: relative;
+  top: 4em;
+}
+.wave {
+  position: fixed;
+  width: 100%;
+}
