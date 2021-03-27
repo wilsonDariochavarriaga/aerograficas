@@ -1,62 +1,77 @@
-body {
-  background: url(calaberafx.png);
-  background-repeat: no-repeat;
-  background-size: 121%;
-  background-position: -300px -48px;
-  background-attachment: fixed;
-  font-size: 1.7em;
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  position: fixed;
+  width: 100vw;
+  height: 70px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*border-bottom: 2px solid #000;*/
+  z-index: 1;
 }
 
-.logotipo {
-  text-decoration: none;
-  color: #05fcfc;
-  text-shadow: rgb(84, 109, 117) -6px 2px;
-  margin: 1em;
-  font-family: Homer Simpson UI;
-  font-size: 5em;
-  word-spacing: 0, 5em;
-  position: relative;
-  top: 30px;
-}
-
-.menu {
-  padding: 10px;
-  background: #05fcfc59;
-  max-width: 100%;
-  margin: auto;
-  text-align: center;
+.logo{
+  margin-left: 30px;
   font-size: 40px;
-  word-spacing: 1em;
-  position: relative;
-  top: 8.5em;
+  color: #000;
+  text-decoration: none;
+}
+
+.menu ul{
+  display: flex;
+  list-style: none;
+}
+.menu li {
+  margin: 30px;
 }
 .menu li a {
-  font-size: 45px;
+  font-size: 20px;
   text-decoration: none;
-  color: white;
-  padding: 20px;
-  display: block;
+  color: #000;
+  /*padding: 20px;*/
+  /*display: block;*/
+  text-transform: uppercase;
 }
 
-.menu li {
-  display: inline-block;
-  text-align: center;
-  text-decoration: none;
-}
+
 .menu li a:hover {
   background: #dfebeb34;
   /* transition: all 0.5s; */
   /* border-radius: 10px; */
 }
-marquee {
-  color: #737377;
-  font-size: 2em;
-  width: 50%;
-  letter-spacing: 15px;
-  position: relative;
-  top: 4em;
+
+.hero{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./auto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*z-index: 1;*/
 }
-.wave {
-  position: fixed;
-  width: 100%;
+.hero::after{
+  content: " ";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100vh;
 }
+.marquee{
+  z-index: 11111;
+  position:relative;
+}
+
+
+
+
+
+
+
+
+
+
+
